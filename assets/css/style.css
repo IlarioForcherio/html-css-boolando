@@ -48,7 +48,7 @@ a:hover{
     margin: 0 auto;
     justify-content: space-around;
     
-    padding: 30px 200px ;
+    padding: 100px 200px ;
         
  }
  .images img{
@@ -56,4 +56,28 @@ a:hover{
     width: 340px;
     padding:5px;
  }
+ .label{
+    position:relative;
+ }
+
+ .label div{
+    position:absolute;
+    bottom:100px;
+ }
+
+ .jpg1b{
+    display: none;
+ }
+
+ .images :hover .jpg1{
+    display:none;
+ }
+
+
+ .images :hover .jpg1b{
+ display:block
+}
+
+
+
 
