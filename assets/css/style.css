@@ -41,6 +41,7 @@ a:hover{
 
 
 
+
 .images{
     
     display: flex;
@@ -51,33 +52,76 @@ a:hover{
     padding: 100px 200px ;
         
  }
+li{
+    list-style: none;
+}
+
  .images img{
 
-    width: 340px;
-    padding:5px;
+    width: 342px;
+    padding: 8px;
+    
+  
+    
  }
  .label{
     position:relative;
+    
+    
+    
  }
 
  .label div{
-    position:absolute;
-    bottom:100px;
+    position: absolute;
+    bottom:60px;
+    left: 8px;
+    background-color: red;
+    color: white;
+    order: 2;
+    
+   
+ }
+ 
+ span{
+    position: absolute;
+    color:white;
+    bottom:60px;
+    left: 47px;
+    background-color: green;
+    
+    
+    
+    
+ }
+ 
+ .label i{
+    background-color:white;
+    position: absolute;
+    right:8px;
+    top: 22px;
+    padding: 8px;
  }
 
- .jpg1b{
+ i:hover{
+    color: red;
+
+ }
+
+ .jpg-b{
     display: none;
  }
 
- .images :hover .jpg1{
+ .images :hover .jpg-a{
     display:none;
  }
 
 
- .images :hover .jpg1b{
+ .images :hover .jpg-b{
  display:block
 }
 
+
+   
 
 
 
