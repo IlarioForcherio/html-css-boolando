@@ -4,7 +4,7 @@
     box-sizing:border-box;
 
 }
-/* barra di navigazione */
+/* NAV BAR */
 header{
     background-color: #fa6901;
     width: 100%;
@@ -37,11 +37,7 @@ a:hover{
     text-decoration: underline;
 }
 
-/* sec1 */
-
-
-
-
+/* SECTION 1 */
 .images{
     
     display: flex;
@@ -49,7 +45,7 @@ a:hover{
     margin: 0 auto;
     justify-content: space-around;
     
-    padding: 100px 200px ;
+    padding: 70px 200px ;
         
  }
 li{
@@ -60,6 +56,7 @@ li{
 
     width: 342px;
     padding: 8px;
+   
     
   
     
@@ -90,8 +87,6 @@ li{
     background-color: green;
     
     
-    
-    
  }
  
  .label i{
@@ -102,7 +97,7 @@ li{
     padding: 8px;
  }
 
- i:hover{
+ .label i:hover{
     color: red;
 
  }
@@ -124,6 +119,38 @@ li > span{
     color: red;
     display: inline;
     text-decoration: line-through;
+
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(58, 56, 56);
+    padding:30px;
+
+}
+
+.footer-container{
+    
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    color: white;
+    
+    
+}
+
+.footer-text {
+    color: white;
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+    display: inline;
 
 }
 
