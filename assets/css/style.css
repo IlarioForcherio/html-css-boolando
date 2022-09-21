@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+/* barra di navigazione */
+header{
+    background-color: #fa6901;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav >img{
+    width: 130px;
+    padding: 12px;
+    
+}
+ a:link{
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* sec1 */
+
+
+section{
+    background-color: blue;
+}
+.images{
+    
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.images img{
+    
+    width:100%;
+    
+    
+}
