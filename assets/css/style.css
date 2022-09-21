@@ -48,7 +48,7 @@ a:hover{
     padding: 70px 200px ;
         
  }
-li{
+ .label  li{
     list-style: none;
 }
 
@@ -115,11 +115,20 @@ li{
  display:block
 }
 
+ .label li:nth-child(3){
+    color:red;
+}
+
 li > span{
-    color: red;
+    color: black;
     display: inline;
     text-decoration: line-through;
 
+}
+
+#label-6{
+ position: absolute;
+ left:8px;
 }
 
 /* FOOTER */
@@ -136,6 +145,7 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 footer ul{
@@ -147,9 +157,10 @@ footer ul{
 .footer-text {
     color: white;
     font-weight: bold;
+    padding-bottom: 5px;
 }
-li{
-    list-style-type: none;
+.footer-container  li {
+    list-style: none;
     display: inline;
 
 }
