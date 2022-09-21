@@ -73,7 +73,7 @@ li{
 
  .label div{
     position: absolute;
-    bottom:60px;
+    bottom:100px;
     left: 8px;
     background-color: red;
     color: white;
@@ -82,10 +82,10 @@ li{
    
  }
  
- span{
+ .label > span{
     position: absolute;
     color:white;
-    bottom:60px;
+    bottom:100px;
     left: 47px;
     background-color: green;
     
@@ -118,6 +118,13 @@ li{
 
  .images :hover .jpg-b{
  display:block
+}
+
+li > span{
+    color: red;
+    display: inline;
+    text-decoration: line-through;
+
 }
 
 
