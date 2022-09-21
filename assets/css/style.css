@@ -7,6 +7,10 @@
 /* barra di navigazione */
 header{
     background-color: #fa6901;
+    width: 100%;
+    position: fixed;
+    z-index:1;
+    
 }
 nav{
     width: 80%;
@@ -15,6 +19,9 @@ nav{
     color: white;
     align-items: center;
     justify-content: space-between;
+    
+    
+    
 }
 
 nav >img{
@@ -33,21 +40,20 @@ a:hover{
 /* sec1 */
 
 
-section{
-    background-color: blue;
-}
+
 .images{
     
     display: flex;
     width: 80%;
     margin: 0 auto;
+    justify-content: space-around;
     
-    
-}
+    padding: 30px 200px ;
+        
+ }
+ .images img{
 
-.images img{
-    
-    width:100%;
-    
-    
-}
+    width: 340px;
+    padding:5px;
+ }
+
