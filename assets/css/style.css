@@ -55,8 +55,8 @@ a:hover{
 }
 
  .images img{
-
-    width: 342px;
+/* FIXARE LA WIDTH CON 100% */
+    width: 342px;  
     padding: 8px;
    
     
